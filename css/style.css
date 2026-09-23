@@ -138,9 +138,9 @@ a{
         border:1px solid #6067af !important;
     }
     .btn_hovers:hover {
-      background: transparent;
+     box-shadow: 3px 2px 2px #ccc; 
       border: 1px solid #6067af;
-      color: #6067af !important;
+       
     }
     .light_bg_ico {
     background: #6067af;
