@@ -52,14 +52,16 @@ a{
     transition: all .2s  ease-in;
 }
     .main_bann_in {
-      background-image: linear-gradient(90deg, #f6f4fd, #f4f5fd);
+     
       padding: 80px;
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       border-radius: 20px;
     }
-
+ .main_bann {
+    background: url('../image/my-home-bann.webp');
+}
     .primary_txt {
       color: #6067af;
     }
