@@ -50,7 +50,39 @@
          background: #00000094;
          border-radius: 10px;
     }
+ .abt_sec_img {
+    position: relative;
+}
  
+ .abt_sec_img:before{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    background-image:url('../image/pattern-1.webp');
+    background-position:center;
+    background-size:cover;
+    z-index:-1;
+    animation-name: rotateme;
+ }
+  @keyframes rotateme{
+     0% {
+    transform: rotate(0deg);
+    opacity: 1;
+}
+50% {
+    transform: rotate(180deg);
+}
+100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+
   </style>
 </head>
 
@@ -144,7 +176,7 @@ Build Better. Automate Smarter. Grow Faster.
               </div>
               <div class="col-lg-6">
                   <div class="abt_sec_cont">
-                      <p class="secondry_txt fw-bold   mb-0">ABOUT TECHBIRJA</p>
+                      <p class="secondry_txt fw-bold">ABOUT TECHBIRJA</p>
                       <h2 class="fw-bold">
                        Technology Built Around Your Business
                       </h2>
