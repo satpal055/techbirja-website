@@ -19,9 +19,12 @@
   <!-- Bootstrap CSS -->
   <link href=" ../../css/bootstrap.min.css" rel="stylesheet">
   <link rel="preload" href="../css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
   <noscript><link rel="stylesheet" href="../css/style.css"></noscript>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cU+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <script type="application/ld+json">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -53,7 +56,14 @@
  .abt_sec_img {
     position: relative;
 }
- 
+ .item img{
+          width: 50px !important;
+    height: 50px;
+    margin: auto;
+}
+.item  {
+    display: inline-block; 
+}
  .abt_sec_img:before{
     content:'';
     position:absolute;
@@ -296,6 +306,53 @@ We integrate AI and automation into business workflows to reduce repetitive task
       </div>
     </div>
   </section>
+  <section class="py_60">
+        <div class="container">
+<div class="owl-carousel owl-theme">
+  <div class="item">
+    <img src="image/react.svg">
+    <p>React</p>
+  </div>
+  <div class="item">
+    <img src="image/git.svg">
+    <p>git</p>
+  </div>
+  <div class="item">
+    <img src="image/github.svg">
+    <p>github</p>
+  </div>
+  <div class="item">
+    <img src="image/javascript.svg">
+    <p>javascript</p>
+  </div>
+  <div class="item">
+    <img src="image/mongodb.svg">
+    <p>mongodb</p>
+  </div>
+  <div class="item">
+    <img src="image/mysql.svg">
+    <p>mysql</p>
+  </div>
+  <div class="item">
+    <img src="image/nodejs.svg">
+    <p>nodejs</p>
+  </div>
+  <div class="item">
+    <img src="image/openai.svg">
+    <p>openai</p>
+  </div>
+  <div class="item">
+    <img src="image/wordpress.svg">
+    <p>wordpress</p>
+  </div>
+  <div class="item">
+    <img src="image/tailwindcss.svg">
+    <p>tailwind </p>
+  </div>
+</div>
+        </div>
+ 
+    </section>
   
   <section class="procees_sec py_60"  id="prcss">
       <div class="container">
@@ -821,7 +878,40 @@ Whether you need a new website, custom web application, CRM, or automation solut
 
   </script>
   
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+$(document).ready(function () {
+
+  var owl = $(".owl-carousel");
+
+  owl.owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: false,
+    dots: false,
+
+    autoplay: true,
+    autoplayTimeout: 2500,
+    autoplaySpeed: 1200,
+    smartSpeed: 1200,
+    autoplayHoverPause:true,
+
+    responsive: {
+      0: {
+        items: 2
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 6
+      }
+    }
+  });
+
+});
+</script>
 </body>
 
 </html>
