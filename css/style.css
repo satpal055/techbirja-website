@@ -310,6 +310,14 @@ a{
     background-repeat: no-repeat;
     border-radius: 20px;
 }
+.Canada_servic_servic .main_bann_in{
+    background-image: url(../image/canada_home_bann.webp);
+    padding: 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
 .usa_servic h1 .primary_txt {
     background: #6067af;
     color: #fff;
