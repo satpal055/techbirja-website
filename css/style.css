@@ -445,9 +445,9 @@ a{
     bottom: 0;
     opacity: 1;
 }
-.usa_servic .bann_content a:hover {
+/* .usa_servic .bann_content a:hover {
     background: #fff;
-}
+} */
 .usa_servic .bann_content a  {
     border: 1px solid #6067af;
 }
