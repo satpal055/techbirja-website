@@ -526,8 +526,28 @@ a{
     display: inline-flex;
 }
 
- 
+.serve_inds {
+    background: #4274ba;
+}
 
+.inds_item {
+    background: #274c7e;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inds_item_img {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
 .cstm_srvc .item  {
     border-radius: 20px;
     border: 1px solid #cedfde;
