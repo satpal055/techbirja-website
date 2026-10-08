@@ -527,11 +527,11 @@ a{
 }
 
 .serve_inds {
-    background: #4274ba;
+    background: #000;
 }
 
 .inds_item {
-    background: #274c7e;
+    background: #1d1e1e;
     padding: 15px;
     border-radius: 15px;
     margin-bottom: 20px;
