@@ -508,3 +508,30 @@ a{
 .faq_sec {
     background: #f7f7f7;
 }
+.cstm_srvc {
+    background:#f5f9ff;
+}
+
+.cstm_srvc .icon {
+    width:70px;
+    height:70px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #cedfde 0, #f0f4f3 100%);
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 70px;
+    transition: 1s;
+    position: relative;
+    bottom: 0;
+    display: inline-flex;
+}
+
+ 
+
+.cstm_srvc .item  {
+    border-radius: 20px;
+    border: 1px solid #cedfde;
+    background: linear-gradient(180deg, #fff 0, #ffffff 100%);
+    padding: 25px;
+    height: 100%;
+}
