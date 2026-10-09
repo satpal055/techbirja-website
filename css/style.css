@@ -505,9 +505,7 @@ a{
 .faq_sec .accordion-button:not(.collapsed)::after{
     filter: brightness(0) invert(1);
 }
-.faq_sec {
-    background: #f7f7f7;
-}
+ 
 .cstm_srvc {
     background:#f5f9ff;
 }
