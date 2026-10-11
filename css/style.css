@@ -50,6 +50,7 @@ a{
     border-radius: 10px;
     background: rgb(255 255 255 / 33%);
     transition: all .2s  ease-in;
+    height: 100%;
 }
     .main_bann_in {
      
@@ -646,4 +647,13 @@ a{
 .tb-blog-btn:hover {
   color: #fff;
   background: #4274BA;
+}
+.item h3 {
+    font-size: 20px;
+ font-weight:bold;
+}
+
+.item p {
+    margin-bottom:0;
+    margin-top:10px
 }
