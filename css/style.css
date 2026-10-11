@@ -261,6 +261,7 @@ a{
     position: relative;
     z-index:1;
     transition:all .2s ease-in;
+    height:100%;
 }
 .process_itm:after {
     position: absolute;
@@ -537,7 +538,9 @@ a{
     text-align: center;
     height:100%;
 }
-
+.serve_inds .col-lg-3{
+    margin-top:20px;
+}
 .inds_item_img {
     width: 70px;
     height: 70px;
