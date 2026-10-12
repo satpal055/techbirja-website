@@ -674,3 +674,14 @@ serve_inds .col-lg-3 {
 .procees_sec  .col-lg-3 {
     margin-top: 20px;
 }
+.sft_dvlp_cst  .item {
+    height: 100%;
+}
+
+.sft_dvlp_cst .col-lg-3 {
+    margin-top: 20px;
+}
+
+.sft_srvcs .service-card {
+    height: 100%;
+}
