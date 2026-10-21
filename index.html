@@ -97,6 +97,36 @@
     opacity: 1;
   }
 
+.main_bann {
+    background: #f0f8ff;
+    min-height: 100svh;
+    position: relative;
+    overflow: hidden;
+}  
+    .bann_content h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.bann_content_img:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: url(../image/my-home-shape.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    z-index: -1;
+}
+
+.bann_content_img.text-center {
+    position: relative;
+    z-index: 1;
+    top: 120px;
+}
+
   </style>
 </head>
 
@@ -104,9 +134,9 @@
     <a href="https://wa.me/919057882048" class="whatsapp-float" target="_blank" title="Chat on WhatsApp" >
       <i class="fa-brands fa-whatsapp"></i>
     </a>
-  <nav class="navbar shadow navbar-expand-lg navbar-light bg-white fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="../../image/main_logo.png" alt="TechBirja Softwares" class="main-image"
+ <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+    <div class="container container border border-white rounded-3 bg-white px-3 py-2 shadow">
+      <a class="navbar-brand" href="#"><img src="image/main_logo.png" alt="TechBirja Softwares" class="main-image"
           style="width:130px"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -116,13 +146,13 @@
           
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active primary_txt fw-bold" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://techbirja.com/about-us.html">About</a>
+            <a class="nav-link primary_txt fw-bold" href="https://techbirja.com/about-us.html">About</a>
           </li>
           <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle primary_txt fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Solutions
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -131,7 +161,7 @@
           </ul>
         </li>
           <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle"
+  <a class="nav-link dropdown-toggle primary_txt fw-bold"
      href="#"
      id="servicesDropdown"
      role="button"
@@ -182,15 +212,13 @@
   </ul>
 </li>
           
-            <li class="nav-item">
-            <a class="nav-link" href="#prcss">Features</a>
-          </li>
+       
     
            <li class="nav-item">
-           <a class="nav-link" href="https://blog.techbirja.com/">Blogs</a>
+           <a class="nav-link primary_txt fw-bold" href="https://blog.techbirja.com/">Blogs</a>
           </li>
           <li class="nav-item ms-md-3">
-            <a class="nav-link rounded btn_hovers primary_bg text-white  px-3" href="https://calendly.com/techbirja/30min">Book a Free Call</a>
+            <a class="nav-link rounded-pill btn_hovers primary_bg text-white text-center px-3" href="https://calendly.com/techbirja/30min">Book a Free Call</a>
           </li>
         </ul>
 
@@ -198,31 +226,36 @@
     </div>
   </nav>
 
-  <section class="main_bann mt-5 py-5 position-relative">
+  <section class="main_bann py-5 position-relative">
     <div class="container">
-      <div class="main_bann_in p-md-5 p-3 m-2">
-        <div class="double-items">
+      <div class="py-5">
+        <div class="double-items py-5">
           <div class="row align-items-center">
-            <div class="col-lg-8 mx-auto col-12">
-              <div class="bann_content text-center"> 
-              <p class="  inline-block px-2 py-1 text-white"><b>Software Development Agency & Digital Solutions</b></p>
-                <h1 class="text-white"> We Build<span class="primary_txt"> Digital Solutions  </span>That Help Businesses Grow  </h1>
+            <div class="col-lg-6">
+              <div class="bann_content"> 
+              <p class="text-black  inline-block py-1"><b>Software Development Agency & Digital Solutions</b></p>
+                <h1 class="text-black"> We Build<span class="primary_txt"> Digital Solutions  </span>That Help Businesses Grow  </h1>
 
-                <p class="text-white">
+                <p class="text-black">
               From high-performance websites and custom web applications to CRM systems, AI-powered automation, and WhatsApp solutions — TechBirja builds practical, scalable digital solutions designed around your business goals.
 
 Build Better. Automate Smarter. Grow Faster.
                 </p>
               <div class="connct_btn">
-                <a class="rounded btn_hovers primary_bg border border-0 m-1 text-white px-4 py-3" href="https://calendly.com/techbirja/30min">Book a Free Call</a>
-                <a class="rounded btn_hovers primary_bg border border-0 m-1 text-white px-4 py-3" href="mailto:info@techbirja.com"> Start Your Project
+                <a class="rounded-pill btn_hovers primary_bg border border-0 m-1 text-white px-4 py-3" href="https://calendly.com/techbirja/30min">Book a Free Call</a>
+                <a class="rounded-pill btn_hovers bg-white border border-0 m-1 text-dark px-4 py-3" href="mailto:info@techbirja.com"> Start Your Project
 </a>
               </div>
                 
                 
               </div>
             </div>
-            
+            <div class="col-lg-6">
+              <div class="bann_content text-center"> 
+              <img src="image/my-home-bann.png" class="w-100">
+                
+              </div>
+            </div>
 
           </div>
         </div>
