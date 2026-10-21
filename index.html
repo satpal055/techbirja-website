@@ -49,6 +49,37 @@
       gtag('config', 'G-GFS3BZ6GMN');
     </script>
   <style>
+    
+.main_bann {
+    background: #f0f8ff;
+    min-height: 100svh;
+    position: relative;
+    overflow: hidden;
+}  
+    .bann_content h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.bann_content_img:after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: url(../image/my-home-shape.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    z-index: -1;
+}
+
+.bann_content_img.text-center {
+    position: relative;
+    z-index: 1;
+    top: 120px;
+}
+
     .main_bann_in{
          background: #00000094;
          border-radius: 10px;
@@ -96,36 +127,6 @@
     transform: rotate(360deg);
     opacity: 1;
   }
-
-.main_bann {
-    background: #f0f8ff;
-    min-height: 100svh;
-    position: relative;
-    overflow: hidden;
-}  
-    .bann_content h1 {
-    font-size: 60px;
-    font-weight: bold;
-}
-.bann_content_img:after {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    content: "";
-    height: 100%;
-    width: 100%;
-    background: url(../image/my-home-shape.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
-    z-index: -1;
-}
-
-.bann_content_img.text-center {
-    position: relative;
-    z-index: 1;
-    top: 120px;
-}
 
   </style>
 </head>
@@ -251,7 +252,7 @@ Build Better. Automate Smarter. Grow Faster.
               </div>
             </div>
             <div class="col-lg-6">
-              <div class="bann_content text-center"> 
+              <div class="bann_content_img text-center"> 
               <img src="image/my-home-bann.png" class="w-100">
                 
               </div>
