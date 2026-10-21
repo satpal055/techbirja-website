@@ -90,7 +90,7 @@ a{
     }
 
     .about_us {
-      background: #f7f7f7;
+      background: #f0f8ff;
     }
 
     .bottom-info svg {
@@ -177,7 +177,7 @@ a{
     }
     .progrss_bar {
     height: 95%;
-    background: #ebf2fd;
+    background:#f0f8ff;
     width: 15px;
     margin: auto;
     border-radius: 20px;
@@ -559,7 +559,7 @@ a{
     height: 100%;
 }
  .tb-insights {
-  background: #f5f9ff;
+  background: #f0f8ff;
 }
 
 .tb-eyebrow {
