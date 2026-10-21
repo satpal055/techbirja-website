@@ -690,10 +690,7 @@ serve_inds .col-lg-3 {
     position: relative;
     overflow: hidden;
 }  
-    .bann_content h1 {
-    font-size: 60px;
-    font-weight: bold;
-}
+
 .bann_content_img:after {
     position: absolute;
     right: 0;
